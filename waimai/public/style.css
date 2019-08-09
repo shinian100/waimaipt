@@ -1,0 +1,61 @@
+/*弹性布局*/
+.flex{
+    display: flex;
+    justify-content:space-between;
+}
+.image{
+    width:100%
+}
+/*页面布局*/
+.text-center{
+    text-align: center
+}
+.margin{
+    margin: 0 0.3rem;
+}
+.margin_right{
+    margin-right: 0.5rem;
+}
+.padding_right{
+    padding-right: 0.3rem;
+}
+.padding_left,.item_size{
+    padding-left: 1rem;
+}
+.padding,.item{
+    padding-right: 1rem;
+}
+/*标题*/
+.margin_top{
+    margin: 1rem 0;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+}
+/* 顶部标签 */
+.mint-header{
+    background-color:rgb(238, 167, 14) !important;
+}
+/* 标签下的占位高 */
+ .image_size{
+    width:20%;
+}
+/* 详情页p，h5标签 */
+.flex_p h5{
+    color:#000 !important;
+    font-weight: bold;
+}
+.flex_p p{
+    font-size: 0.4rem
+  }
+.item_size,.item{
+    font-size:0.8rem;
+    font-weight: bold;
+}
+/* more按钮 */
+.btn_style{
+    margin: 1rem 0 1rem 9rem!important;
+    background-color: #efeff4;
+    border: 1px solid red;
+    border-radius: 28%;
+    color:red;
+}
